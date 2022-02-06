@@ -12,7 +12,8 @@ call plug#begin()
 Plug 'ntk148v/vim-horizon'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'sheerun/vim-polyglot'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 let g:gitgutter_highlight_lines = 1
